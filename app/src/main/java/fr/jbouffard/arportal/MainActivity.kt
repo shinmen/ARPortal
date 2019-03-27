@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             val invisibleNode = Node().apply {
                 setParent(anchorNode)
                 renderable = invisibleContainerRenderable
-                localPosition = Vector3(0f, -2f, -7f)
+                localPosition = Vector3(0f, -2f, -10f)
                 localRotation = Quaternion.axisAngle(Vector3(0f, 1f, 0f), 180f)
             }
 
@@ -72,7 +72,6 @@ class MainActivity : AppCompatActivity() {
                     invisibleNode.localScale.y - 0.01f,
                     invisibleNode.localScale.y - 0.01f
                 )
-                //localRotation = Quaternion.axisAngle(Vector3(0f, 1f, 0f), 180f)
             }
         }
 
