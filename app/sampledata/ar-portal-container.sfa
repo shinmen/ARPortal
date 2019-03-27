@@ -1,0 +1,26 @@
+{
+  materials: [
+    {
+      name: 'b0b0b0',
+      parameters: [
+        {
+          unused: 0,
+        },
+      ],
+      source: 'sampledata/sceneform_face_mesh_occluder_material.mat',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/ar-portal-container.obj',
+    name: 'ar-portal-container',
+    recenter: 'root',
+    scale: 10,
+  },
+  version: '0.54:2',
+}

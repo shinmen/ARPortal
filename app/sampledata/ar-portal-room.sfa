@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'sunnyVila_thumbMaterial',
+      parameters: [
+        {
+          baseColor: 'sunny',
+        },
+        {
+          baseColorTint: [
+            0.69019600000000003,
+            0.69019600000000003,
+            0.69019600000000003,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.14280000000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/ar-portal-room.obj',
+    name: 'ar-portal-room',
+    recenter: 'root',
+    scale: 10,
+  },
+  samplers: [
+    {
+      file: 'sampledata/sunny.jpg',
+      name: 'sunny',
+      pipeline_name: 'sunny.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
